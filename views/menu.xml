@@ -1,0 +1,20 @@
+<odoo>
+
+
+    <menuitem id="hospital_root"
+              name="Hospital"
+              web_icon="modi_hospital,static/description/hospital(copy).png"
+              sequence="0"/>
+
+
+    <menuitem id="menu_patient_master"
+              name="patient details"
+              parent="hospital_root"
+              sequence="0"/>
+    <menuitem id="menu_appointment_master"
+              name="appointment"
+              parent="hospital_root"
+              sequence="0"/>
+
+
+</odoo>
